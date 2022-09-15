@@ -1,6 +1,6 @@
-int rows = 1000; // Assign to a number between 10 and 1000 that is a multiple of 10.
-int columns = 1000; // Assign to a number between 10 and 1000 that is a multiple of 10.
-int pixelSize = 10;// Assign to an integer that is divisible by 10.
+int rows = 100; // Assign to a number between 10 and 1000 that is a multiple of 10.
+int columns = 100; // Assign to a number between 10 and 1000 that is a multiple of 10.
+int pixelSize = 1;// Assign to an integer that is divisible by 10.
 int[][] matrix = new int[rows][columns]; 
 
 public void settings(){
@@ -9,7 +9,7 @@ public void settings(){
   // Assign individual indices of the matrix to 0s and 1s to recreate your pixel art!
   // An example is found below.
   matrix[0][0] = 2;
-  
+  matrix[1][11] = 255, 0, 0;
   
   
   
